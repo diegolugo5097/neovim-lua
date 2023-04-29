@@ -17,11 +17,17 @@ return require('packer').startup(function(use)
 
   -- themes
   use 'navarasu/onedark.nvim'
+  use { "bluz71/vim-nightfly-colors", as = "nightfly" }
 
   -- lualine
   use { 
       "nvim-lualine/lualine.nvim",
       requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+
+  -- flutter plugins
+  use {
+    'akinsho/flutter-tools.nvim',
   }
 
   -- bufferline
@@ -41,6 +47,8 @@ return require('packer').startup(function(use)
   -- show colors on code hexa
   use "norcalli/nvim-colorizer.lua"
 
+  -- prettier
+  use 'MunifTanjim/prettier.nvim'
 
   --  completion
   use "hrsh7th/nvim-cmp"

@@ -5,6 +5,7 @@ end
 
 local formatting = null_ls.builtins.formatting
 local diagnostics = null_ls.builtins.diagnostics
+local eslint = null_ls.builtins.diagnostics.eslint
 
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 

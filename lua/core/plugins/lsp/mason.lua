@@ -15,10 +15,9 @@ mason_lspconfig.setup({
         "lua_ls",
         "tailwindcss",
         "tsserver",
-        "gopls",
         "rust_analyzer",
-        "javascript",
-        "javascriptreact",
-        "typescriptreact",
+        "vtsls",
+        "quick_lint_js",
+        "eslint",
     }
 })
